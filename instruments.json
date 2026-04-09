@@ -1,0 +1,46 @@
+{
+  "MusicCatalog": {
+    "Instruments": [
+      {
+        "Id": 1,
+        "Name": "Гитара акустическая",
+        "Price": 25000,
+        "InStock": true,
+        "Category": { "Id": 1, "Name": "Струнные" },
+        "Manufacturer": { "Id": 1, "Name": "Yamaha", "Country": "Япония" }
+      },
+      {
+        "Id": 2,
+        "Name": "Электрогитара",
+        "Price": 55000,
+        "InStock": true,
+        "Category": { "Id": 1, "Name": "Струнные" },
+        "Manufacturer": { "Id": 2, "Name": "Fender", "Country": "США" }
+      },
+      {
+        "Id": 3,
+        "Name": "Пианино",
+        "Price": 120000,
+        "InStock": false,
+        "Category": { "Id": 2, "Name": "Клавишные" },
+        "Manufacturer": { "Id": 3, "Name": "Steinway", "Country": "Германия" }
+      },
+      {
+        "Id": 4,
+        "Name": "Синтезатор",
+        "Price": 45000,
+        "InStock": true,
+        "Category": { "Id": 2, "Name": "Клавишные" },
+        "Manufacturer": { "Id": 1, "Name": "Yamaha", "Country": "Япония" }
+      },
+      {
+        "Id": 5,
+        "Name": "Барабанная установка",
+        "Price": 80000,
+        "InStock": true,
+        "Category": { "Id": 3, "Name": "Ударные" },
+        "Manufacturer": { "Id": 4, "Name": "Pearl", "Country": "Япония" }
+      }
+    ]
+  }
+}
